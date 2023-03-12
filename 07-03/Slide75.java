@@ -19,17 +19,11 @@ public class Slide75 {
                 for (int j = 0; j < column1; j++) {
                     System.out.print("A[" + i + "][" + j + "]: ");
                     array1[i][j] = sc.nextInt();
-                }
-            }
-
-            for (int i = 0; i < row1; i++) {
-                for (int j = 0; j < column1; j++) {
                     if (array1[i][j] % 2 == 0) {
                         sum += array1[i][j];
                     }
                 }
             }
-
             System.out.println("Ma tran A: ");
             for (int i = 0; i < row1; i++) {
                 for (int j = 0; j < column1; j++)
