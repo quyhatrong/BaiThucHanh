@@ -1,8 +1,10 @@
+package Student;
+
 import java.util.Scanner;
 
-public class ClassSinhVien {
-    String name, gender;
-    int age, year, id;
+public class Student {
+    private String name, gender;
+    private int age, year, id;
 
     public void nhapThongTinSV() {
         try (Scanner sc = new Scanner(System.in)) {
