@@ -7,7 +7,7 @@ public class Slide16 {
         ArrayList<String> arrayListString = new ArrayList<>();
         arrayListString.add("");
 
-        System.out.println("Các phần tử trong arrListString là:");
+        System.out.println("Các phần tử trong arrListString la:");
 
         for (int i = 0; i < 10; i++) {
             System.out.println(arrayListString.get(i) + "\t");
